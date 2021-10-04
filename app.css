@@ -1,0 +1,105 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    background: hsl(225, 100%, 94%);
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.root_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 520px;
+    width: 360px;
+    margin-top: 5rem;
+    box-shadow: 0.5px 14px 19px gainsboro;
+
+}
+.container{
+    height: 520px;
+    width: 360px;
+    background: white;
+    border-radius: 12px;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content_title{
+    margin-top: 1rem;
+    font-size: 22px;
+}
+.content-desc{
+    margin-top: 0.5rem;
+    color: rgb(78, 76, 76);
+    font-size: smaller;
+    line-height: 1.3rem;
+    text-align-last: center;
+}
+.hero_img{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 360px;
+}
+.subs_plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.3rem;
+    background: rgb(249, 249, 255);
+    border-radius: 8px;
+    width: 290px;
+    height: 80px;
+}
+.music_logo{
+    height: 35px;
+    margin-left: -0.5rem;
+}
+.subs_plan_type{
+    font-size: 15px;
+}
+.subs_plan_price{
+    color: rgb(78, 76, 76);
+    font-size: 14px;
+}
+.subs_plan_title{
+    margin-left: -2rem;
+    margin-right: 1rem;
+}
+.subs_plan_change{
+    font-family: 13px;
+    color: rgb(1, 1, 146);
+    text-decoration: underline rgb(1, 1, 146);
+    cursor: pointer;
+}
+.subs_plan_change:hover{
+    text-decoration: none;
+}
+.btn{
+    color: rgb(252, 252, 255);
+    padding: 12px 76px;
+    border-radius: 8px;
+    background:rgb(18, 18, 219);
+    font-weight: bolder;
+    font-size: 12px;
+    margin-top: 1.5rem;
+    border: rgb(5, 5, 160);
+    box-shadow: 4px 16px 17px gainsboro;
+    cursor: pointer;
+}
+.cancel_link{
+    margin-top: 1.2rem;
+    color: rgb(78, 76, 76);
+    cursor: pointer;
+}
+.cancel_link:hover{
+    color: black;
+}
