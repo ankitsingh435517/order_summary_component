@@ -11,10 +11,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -51,6 +48,6 @@ Here in this basic html5, css3 and other css properties project , i learned a bi
 ## Author
 
 - Frontend Mentor - [@ankitsingh435517](https://www.frontendmentor.io/profile/ankitsingh435517)
-- Twitter - [@yourusername](https://www.twitter.com/ankitsingh435)
+- Twitter - [@ankitsingh435](https://www.twitter.com/ankitsingh435)
 
 
